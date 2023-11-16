@@ -16,6 +16,8 @@
 		5E477ECC2B05ECBB0038F06D /* CompositionalCollectioviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E477ECB2B05ECBB0038F06D /* CompositionalCollectioviewTests.swift */; };
 		5E477ED62B05ECBB0038F06D /* CompositionalCollectioviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E477ED52B05ECBB0038F06D /* CompositionalCollectioviewUITests.swift */; };
 		5E477ED82B05ECBB0038F06D /* CompositionalCollectioviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E477ED72B05ECBB0038F06D /* CompositionalCollectioviewUITestsLaunchTests.swift */; };
+		5E477EE52B05EE260038F06D /* SampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E477EE42B05EE260038F06D /* SampleCell.swift */; };
+		5E477EE72B05EF3C0038F06D /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E477EE62B05EF3C0038F06D /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5E477ED12B05ECBB0038F06D /* CompositionalCollectioviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompositionalCollectioviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E477ED52B05ECBB0038F06D /* CompositionalCollectioviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalCollectioviewUITests.swift; sourceTree = "<group>"; };
 		5E477ED72B05ECBB0038F06D /* CompositionalCollectioviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalCollectioviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E477EE42B05EE260038F06D /* SampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCell.swift; sourceTree = "<group>"; };
+		5E477EE62B05EF3C0038F06D /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				5E477EBD2B05ECBB0038F06D /* Assets.xcassets */,
 				5E477EBF2B05ECBB0038F06D /* LaunchScreen.storyboard */,
 				5E477EC22B05ECBB0038F06D /* Info.plist */,
+				5E477EE42B05EE260038F06D /* SampleCell.swift */,
+				5E477EE62B05EF3C0038F06D /* SampleData.swift */,
 			);
 			path = CompositionalCollectioview;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E477EB92B05ECBA0038F06D /* ViewController.swift in Sources */,
+				5E477EE52B05EE260038F06D /* SampleCell.swift in Sources */,
 				5E477EB52B05ECBA0038F06D /* AppDelegate.swift in Sources */,
+				5E477EE72B05EF3C0038F06D /* SampleData.swift in Sources */,
 				5E477EB72B05ECBA0038F06D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 84Z6V3FJR8;
+				DEVELOPMENT_TEAM = 7UP22G6J32;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CompositionalCollectioview/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -470,7 +478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 84Z6V3FJR8;
+				DEVELOPMENT_TEAM = 7UP22G6J32;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CompositionalCollectioview/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
