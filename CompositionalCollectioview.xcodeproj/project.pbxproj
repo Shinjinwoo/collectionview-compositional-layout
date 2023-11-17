@@ -18,6 +18,7 @@
 		5E477ED82B05ECBB0038F06D /* CompositionalCollectioviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E477ED72B05ECBB0038F06D /* CompositionalCollectioviewUITestsLaunchTests.swift */; };
 		5E477EE52B05EE260038F06D /* SampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E477EE42B05EE260038F06D /* SampleCell.swift */; };
 		5E477EE72B05EF3C0038F06D /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E477EE62B05EF3C0038F06D /* SampleData.swift */; };
+		5E477EE92B06F0470038F06D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E477EE82B06F0470038F06D /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5E477ED72B05ECBB0038F06D /* CompositionalCollectioviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalCollectioviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5E477EE42B05EE260038F06D /* SampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCell.swift; sourceTree = "<group>"; };
 		5E477EE62B05EF3C0038F06D /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		5E477EE82B06F0470038F06D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				5E477EC22B05ECBB0038F06D /* Info.plist */,
 				5E477EE42B05EE260038F06D /* SampleCell.swift */,
 				5E477EE62B05EF3C0038F06D /* SampleData.swift */,
+				5E477EE82B06F0470038F06D /* HeaderView.swift */,
 			);
 			path = CompositionalCollectioview;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E477EB92B05ECBA0038F06D /* ViewController.swift in Sources */,
+				5E477EE92B06F0470038F06D /* HeaderView.swift in Sources */,
 				5E477EE52B05EE260038F06D /* SampleCell.swift in Sources */,
 				5E477EB52B05ECBA0038F06D /* AppDelegate.swift in Sources */,
 				5E477EE72B05EF3C0038F06D /* SampleData.swift in Sources */,
