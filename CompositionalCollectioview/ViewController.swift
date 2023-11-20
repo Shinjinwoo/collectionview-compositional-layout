@@ -97,7 +97,16 @@ class ViewController: UIViewController {
             
             // .absolute로 절대값, .fractional으로 비율별로 상대적으로 값을 줄수 있다
             let groupSize = NSCollectionLayoutSize(widthDimension: .absolute(200), heightDimension: .absolute(220))
-            let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: columns)
+            
+            
+            //count 로 지정된 수만큼 수평으로 정렬된 동일한 크기의 항목 배열이 포함
+            //let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: columns)
+            
+            //수평 축을 따라 지정된 항목을 특정 횟수로 반복하는 그룹을 만듬
+            let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, repeatingSubitem: item, count: columns)
+            
+            
+            
             
             let section = NSCollectionLayoutSection(group: group)
             
