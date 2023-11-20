@@ -109,7 +109,14 @@ class ViewController: UIViewController {
             //스크롤링 Behavior를 설정한다... 이 경우 horizental로 그룹별로 가운데 정렬로 보여주는 방법도 있고
             //요구사항대로 continuous 하게 개발하는 방법도 있었다.
             
-            section.orthogonalScrollingBehavior = .groupPagingCentered
+            
+            switch sectionType {
+            case .firstLine : section.orthogonalScrollingBehavior = .groupPagingCentered
+            case .secondLine : section.orthogonalScrollingBehavior = .continuousGroupLeadingBoundary
+            case .thirdLine :
+                section.orthogonalScrollingBehavior = .paging
+            }
+            //section.orthogonalScrollingBehavior = .groupPagingCentered
             //section.orthogonalScrollingBehavior = .continuous
             
             return section
